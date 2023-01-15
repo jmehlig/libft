@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//writes a given string to a given file
+
 void	ft_putstr_fd(char *s, int fd)
 {
 	int	i;
