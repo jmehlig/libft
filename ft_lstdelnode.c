@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//delete all list entrys with a given key
+
 void	ft_lstdelnode(t_list **lst, void *key)
 {
 	t_list	*temp;
