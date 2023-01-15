@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//returns the number of nodes of the given list
+
 int	ft_lstsize(t_list *lst)
 {
 	int	i;
