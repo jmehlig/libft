@@ -23,7 +23,6 @@ void	*ft_free_double(char ***word, int index)
 		(*word)++;
 		i++;
 	}
-	exit(1);
 	free(*word);
 	return (NULL);
 }
