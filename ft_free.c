@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//frees the contents of the pointer 'word' and sets its value to NULL
+
 void	*ft_free(void *word)
 {
 	free(word);
