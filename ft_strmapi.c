@@ -12,6 +12,9 @@
 
 #include "libft.h"
 
+// Applies the function f on each character of string s
+// Returns the string of these result, or 0 if it fails
+
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	char	*ptr;
