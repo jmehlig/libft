@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//frees the contents of a double_pointer created by the ft_split function
+
 static void	ft_memdel(void **ap)
 {
 	free(*ap);
