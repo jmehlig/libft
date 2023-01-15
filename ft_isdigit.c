@@ -12,14 +12,13 @@
 
 #include "libft.h"
 
+//returns 1 if the corresponding ascii value is a number
+//returns 0 otherwise
+
 int	ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
-	{
 		return (1);
-	}
 	else
-	{
 		return (0);
-	}
 }
