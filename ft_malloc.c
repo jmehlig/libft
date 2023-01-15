@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//creates space of size 'size' and is protected
+
 char	*ft_malloc(int size)
 {
 	char	*new_str;
