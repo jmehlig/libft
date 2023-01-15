@@ -12,6 +12,9 @@
 
 #include "libft.h"
 
+//searches for c in the string s, returns pointer to it if found
+// otherwise return 0
+
 char	*ft_strchr(const char *s, int c)
 {
 	int	i;
@@ -20,17 +23,11 @@ char	*ft_strchr(const char *s, int c)
 	while (s[i] != 0)
 	{
 		if (s[i] == c)
-		{
 			return ((char *) &s[i]);
-		}
 		i++;
 	}
 	if (c == 0)
-	{
 		return ((char *) &s[i]);
-	}
 	else
-	{
 		return (0);
-	}
 }
