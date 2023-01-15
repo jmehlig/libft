@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//frees the given list by deleting every node
+
 void	ft_lstfree(t_list **lst)
 {
 	t_list	*temp;
