@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//frees the given node with the given delete function
+
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
 	if (!lst || !del)
