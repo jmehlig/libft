@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//frees the contents of a double-pointer 'array' of size 'array-size'
+
 void	ft_free_2d_array(void **array, size_t size_array)
 {
 	size_t	i;
