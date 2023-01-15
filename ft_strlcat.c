@@ -12,6 +12,9 @@
 
 #include "libft.h"
 
+//appends dst by src restricted by dstsize
+//returns the length of the string it created
+
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
 	size_t	i;
