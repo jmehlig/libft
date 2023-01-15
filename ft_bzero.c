@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//sets all elements in the pointed array (possible string) to 0
+
 void	ft_bzero(void *s, size_t n)
 {
 	size_t	i;
