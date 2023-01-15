@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//returns length of a nullterminated double-pointer
+
 int	ft_len_double(char **str)
 {
 	int	i;
