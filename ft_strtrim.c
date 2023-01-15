@@ -42,6 +42,8 @@ static char	*ft_strtrim_cpy(char *ptr, char const *s1, size_t start, size_t end)
 	return (ptr);
 }
 
+//Allocates and returns a copy of s1, where the characters defined in set are removed from the beginning and the end
+
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	size_t	i;
