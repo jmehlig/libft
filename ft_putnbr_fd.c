@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//writes a given integer into a given file, using recursion
+
 void	ft_putnbr_fd(int n, int fd)
 {
 	unsigned int	x;
