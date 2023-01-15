@@ -13,6 +13,9 @@
 #include "libft.h"
 #include "math.h"
 
+//compares if the two floats f1 and f2 are close enough to count as equal
+//(by nature of a float, the normal comparison operator = is not sufficient enough)
+
 float	ft_comp_float(float f1, float f2)
 {
 	float	diff;
