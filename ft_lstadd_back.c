@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-//adds a new entry to the end of a given list, if it's empty starts the list with it
+//adds a new entry to the end of a given list, if the list is empty starts the list with it
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
