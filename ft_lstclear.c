@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//clears the given list with a given del function
+
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*ptr;
