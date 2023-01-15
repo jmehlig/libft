@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//creates a new list with one entry, which key is the given content
+
 t_list	*ft_lstnew(void *content)
 {
 	t_list	*element;
