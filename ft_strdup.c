@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//allocates and returns a copy of the given string
+
 char	*ft_strdup(const char *s1)
 {
 	char	*ptr;
