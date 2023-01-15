@@ -87,7 +87,6 @@ BSRCS	=		ft_lstnew.c \
 				ft_lstmap.c \
 
 GREEN = \033[1;32m
-
 WHITE = \033[0m
 
 BOBJS	=		$(BSRCS:.c=.o)
