@@ -12,6 +12,9 @@
 
 #include "libft.h"
 
+//takes string and convertes it to an integer
+//strings without digits will return 0
+
 int	ft_atoi(const char *str)
 {
 	size_t	i;
