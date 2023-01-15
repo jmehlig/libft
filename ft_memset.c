@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//sets len entries of b to c
+
 void	*ft_memset(void *b, int c, size_t len)
 {
 	size_t	i;
