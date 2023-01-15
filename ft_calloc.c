@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//creates space for 'count' number of objects of size 'size'
+
 void	*ft_calloc(size_t count, size_t size)
 {
 	void	*ptr;
