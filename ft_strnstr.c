@@ -12,6 +12,9 @@
 
 #include "libft.h"
 
+//searches for a substring in a string, but not for more than len characters
+//returns pointer to first occurence
+
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
 	size_t	i;
@@ -29,9 +32,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 		{
 			j++;
 			if (needle[j] == 0)
-			{
 				return ((char *) &haystack[i]);
-			}
 		}
 		i += 1;
 		j = 0;
