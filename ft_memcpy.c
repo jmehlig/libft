@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-//copies the first n characters of src into dst
+//copies n bytes of src into dst
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
