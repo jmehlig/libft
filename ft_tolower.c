@@ -12,11 +12,11 @@
 
 #include "libft.h"
 
+//if the given ascii character is a capital letter, return the corresponding lower case letter
+
 int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
-	{
 		c += 32;
-	}
 	return (c);
 }
