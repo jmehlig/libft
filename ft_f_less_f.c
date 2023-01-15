@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//returns 1 if f1 is actually (with respect to a possible small aberration) smaller than f2
+
 int	ft_f_less_f(float f1, float f2)
 {
 	float	precision;
