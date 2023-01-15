@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//copies 'src' to 'dst' until the value is c or there are n characters copied
+
 void	*ft_memccpy(void *dst, const void *src, int c, size_t n)
 {
 	size_t	i;
