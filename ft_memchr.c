@@ -12,6 +12,9 @@
 
 #include "libft.h"
 
+//searches in the first n characters of s for c and returns the pointer to it
+// if not found, return 0
+
 void	*ft_memchr(const void *s, int c, size_t n)
 {
 	size_t	i;
