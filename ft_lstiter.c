@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//Iterates the given list and applying the function f to the content of every node
+
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
 	if (!lst || !f)
