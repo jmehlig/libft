@@ -12,6 +12,8 @@
 
 #include "libft.h"
 
+//frees the contents of a double-pointer, that is nullterminated
+
 void	ft_free_2d_array_nullterminated(void **array)
 {
 	size_t	i;
