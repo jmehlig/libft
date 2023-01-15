@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-//writes the char c to the standard output
+//writes the char c to a given file
 
 void	ft_putchar_fd(char c, int fd)
 {
