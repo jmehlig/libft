@@ -12,7 +12,9 @@
 
 #include "libft.h"
 
-static int	ft_lennbr(int n)
+//calcultes the number of digits of the number n
+
+static int	ft_len_int(int n)
 {
 	int	i;
 
@@ -36,12 +38,14 @@ static int	ft_lennbr(int n)
 	return (i);
 }
 
+//returns the string for negative numbers
+
 static char	*ft_positive(int n)
 {
 	int		i;
 	char	*ptr;
 
-	i = ft_lennbr(n);
+	i = ft_len_int(n);
 	ptr = (char *)malloc(sizeof(char) * (i + 1));
 	if (!ptr)
 		return (0);
@@ -55,12 +59,14 @@ static char	*ft_positive(int n)
 	return (ptr);
 }
 
+//returns the string for negative numbers: with a minus at the first place 
+
 static char	*ft_negative(int n)
 {
 	int		i;
 	char	*ptr;
 
-	i = ft_lennbr(n);
+	i = ft_len_int(n);
 	ptr = (char *)malloc(sizeof(char) * (i + 2));
 	if (!ptr)
 		return (0);
@@ -74,6 +80,8 @@ static char	*ft_negative(int n)
 	}
 	return (ptr);
 }
+
+//takes an integer n and returns it as a string
 
 char	*ft_itoa(int n)
 {
